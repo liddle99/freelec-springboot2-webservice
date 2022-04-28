@@ -81,8 +81,4 @@ public class  PostsApiControllerTest {
         assertThat(all.get(0).getTitle()).isEqualTo(expectedTitle);
         assertThat(all.get(0).getContent()).isEqualTo(expectedContent);
     }
-    @Test
-    public void BaseTimeEntity_등록() throws Exception {
-
-    }
 }
